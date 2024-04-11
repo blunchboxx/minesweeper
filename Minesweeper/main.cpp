@@ -418,6 +418,9 @@ int main()
                             // Set main button to game loss texture
                             smileButton.setButtonTexture("victory", textureMap);
 
+                            // Turn off debug mode
+                            gameBoard.debug(window, textureMap);
+
                             for (int row = 0; row < gameBoard._numRows; row++)
                             {
                                 for (int col = 0; col < gameBoard._numCols; col++)
