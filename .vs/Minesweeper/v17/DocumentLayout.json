@@ -56,7 +56,7 @@
               "RelativeDocumentMoniker": "Minesweeper\\main.cpp",
               "ToolTip": "C:\\Users\\Jason\\OneDrive - University of Florida\\Documents\\GitHub\\Minesweeper\\minesweeper\\Minesweeper\\main.cpp",
               "RelativeToolTip": "Minesweeper\\main.cpp",
-              "ViewState": "AQIAAJMBAAAAAAAAAAAAAKUBAABAAAAA",
+              "ViewState": "AQIAAI0BAAAAAAAAAAAAAKUBAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-03-20T16:19:30.559Z",
               "EditorCaption": ""
@@ -71,8 +71,7 @@
               "RelativeToolTip": "Minesweeper\\board.h",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAB4AAABhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-03-20T23:35:18.342Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-20T23:35:18.342Z"
             },
             {
               "$type": "Document",
@@ -84,8 +83,7 @@
               "RelativeToolTip": "Minesweeper\\board.cpp",
               "ViewState": "AQIAAPAAAAAAAAAAAAAAAAwAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-03-22T09:21:15.415Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-22T09:21:15.415Z"
             },
             {
               "$type": "Document",
@@ -97,8 +95,7 @@
               "RelativeToolTip": "Minesweeper\\tile.h",
               "ViewState": "AQIAAA8AAAAAAAAAAAAAAAsAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-03-20T23:35:36.749Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-20T23:35:36.749Z"
             },
             {
               "$type": "Document",
@@ -110,8 +107,7 @@
               "RelativeToolTip": "Minesweeper\\tile.cpp",
               "ViewState": "AQIAAPYAAAAAAAAAAAAAAP4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-03-22T09:21:20.727Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-22T09:21:20.727Z"
             },
             {
               "$type": "Document",
@@ -135,8 +131,7 @@
               "RelativeToolTip": "Minesweeper\\Button.cpp",
               "ViewState": "AQIAADAAAAAAAAAAAAAAABIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-03-28T16:52:18.55Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-28T16:52:18.55Z"
             },
             {
               "$type": "Document",

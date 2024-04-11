@@ -419,7 +419,7 @@ int main()
                             smileButton.setButtonTexture("victory", textureMap);
 
                             // Turn off debug mode
-                            gameBoard.debug(window, textureMap);
+                            //gameBoard.debug(window, textureMap);
 
                             for (int row = 0; row < gameBoard._numRows; row++)
                             {
@@ -427,6 +427,7 @@ int main()
                                 {
                                     if ((gameBoard._tileVector[row][col]._mined == true) and ((gameBoard._tileVector[row][col]._revealed == false)))
                                     {
+                                        gameBoard._tileVector[row][col]._debug = false; // Turn off debug on any tiles
                                         gameBoard._tileVector[row][col]._flagged = true; // Flag all unrevealed mines
                                         gameBoard._numFlags++; // Increase number of flags by 1
                                     }
