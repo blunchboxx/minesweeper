@@ -9,10 +9,6 @@
 
 Board::Board(map<string, sf::Texture>& textures, int numRows, int numCols, int numMines)
 {
-	/*int cellNum = 0;
-	vector<int> minedCells;
-	vector<int> tempRow;*/
-
 	_numMines = numMines;
 	_numRows = numRows;
 	_numCols = numCols;
@@ -89,10 +85,6 @@ void Board::generateMines(int numTiles, int numMines)
 	// Randomization method inspired by discussion found at https://stackoverflow.com/questions/20734774/random-array-generation-with-no-duplicates
 	if (numTiles > 1)
 	{
-		/*mt19937 random_mt;
-		uniform_int_distribution<int> dist(1, n);
-		int i = dist(random_mt);*/
-
 		srand(time(NULL));
 
 		for (i = 0; i < numTiles - 1; i++)
@@ -131,7 +123,6 @@ void Board::generateMines(int numTiles, int numMines)
 
 }
 
-//#pragma optimize( "", off )
 void Board::loadBoard(string path)
 {
 	char nextChar;
@@ -145,7 +136,6 @@ void Board::loadBoard(string path)
 	_tileVector.clear();
 	_tileVector.shrink_to_fit();
 
-	//cout << "Opening board file... " << endl;
 	boardFile.open(path);
 
 	_numMines = 0;
@@ -184,7 +174,6 @@ void Board::loadBoard(string path)
 		_numNotMines = (_numRows * _numCols) - _numMines;
 	}
 }
-//#pragma optimize( "", on ) 
 
 void Board::initializeTiles(map<string, sf::Texture>& textures, int numRows, int numCols, int numMines)
 {

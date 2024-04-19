@@ -222,7 +222,7 @@ bool recursiveReveal(Board& gameBoard, int clickRow, int clickCol)
 {
     for (unsigned int i = 0; i < gameBoard._tileVector[clickRow][clickCol]._adjacentTiles.size(); i++)
     {
-        // Get actual tile row and column for reference (BUG: FIXME - ADJACENT TILE VECTOR TILES NOT UPDATING. COPIES CREATED? FIXME)
+        // Get actual tile row and column for reference
         unsigned int tempRow = gameBoard._tileVector[clickRow][clickCol]._adjacentTiles[i]->_row;
         unsigned int tempCol = gameBoard._tileVector[clickRow][clickCol]._adjacentTiles[i]->_col;
 
@@ -428,8 +428,14 @@ int main()
                                     if ((gameBoard._tileVector[row][col]._mined == true) and ((gameBoard._tileVector[row][col]._revealed == false)))
                                     {
                                         gameBoard._tileVector[row][col]._debug = false; // Turn off debug on any tiles
-                                        gameBoard._tileVector[row][col]._flagged = true; // Flag all unrevealed mines
-                                        gameBoard._numFlags++; // Increase number of flags by 1
+                                        
+                                        // Check if tile already flagged
+                                        if (gameBoard._tileVector[row][col]._flagged == false)
+                                        {
+                                            gameBoard._tileVector[row][col]._flagged = true; // Flag all unrevealed mines
+                                            gameBoard._numFlags++; // Increase number of flags by 1
+                                        }
+
                                     }
                                 }
                             }
