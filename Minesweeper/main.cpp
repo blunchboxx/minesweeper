@@ -18,9 +18,8 @@ void readConfig(vector<int>& configValues)
 
     configFile.open("boards/config.cfg");
 
-    if (!configFile.is_open()) {
-        cout << "Cannot open configuration file to read." << endl;
-        cout << "Loading default configuration..." << endl;
+    if (!configFile.is_open()) 
+    {
         configValues.push_back(25);
         configValues.push_back(16);
         configValues.push_back(50);
@@ -37,48 +36,7 @@ void readConfig(vector<int>& configValues)
             }
 
         }
-        for (int i = 0; i < configValues.size(); ++i)
-            cout << "Config Value " << i << ": " << configValues[i] << endl;
     }
-}
-
-void drawCurrentScreen()
-{
-    /*
-    window.clear(sf::Color::Color(211, 211, 211, 255));  // mandatory before drawing or previous image will remain
-
-    gameBoard.drawBoard(window);
-    smileButton.drawButton(window, smileButton.normalButtonTexture);
-    debugButton.drawButton(window, debugButton.debugButtonTexture);
-    test1Button.drawButton(window, test1Button.test1ButtonTexture);
-    test2Button.drawButton(window, test2Button.test2ButtonTexture);
-    test3Button.drawButton(window, test3Button.test3ButtonTexture);
-
-    window.display(); // mandatory after drawing*/
-}
-
-// Maybe obsolete?
-void initializeCounterTiles(map<int, Digit*>& digitMap, map<string, sf::Texture>& textures)
-{
-    Digit onesDigit(63, 515, textures);
-    Digit tensDigit(42, 515, textures);
-    Digit hundredsDigit(21, 515, textures);
-    Digit negDigit(0, 515, textures);
-
-    Digit* onesPtr = &onesDigit;
-    Digit* tensPtr = &tensDigit;
-    Digit* hundredsPtr = &hundredsDigit;
-    Digit* negPtr = &negDigit;
-
-    digitMap.emplace(1, onesPtr);
-    digitMap.emplace(10, tensPtr);
-    digitMap.emplace(100, hundredsPtr);
-    digitMap.emplace(-1, negPtr);
-}
-
-void drawButtons()
-{
-
 }
 
 void resizeWindow(sf::RenderWindow& screen, map<int, Digit*>& digitMap, map<string, Button*>& buttonMap, sf::View& mainView, int newWidth, int newHeight)
@@ -340,9 +298,9 @@ int main()
 
     updateCounter(gameBoard, digitPtrMap, textureMap); // Update counter with every click with pointer
 
-    // DEBUG - remove
-    gameBoard.printBoard();
-    cout << endl;
+    // DEBUG commands
+    //gameBoard.printBoard();
+    //cout << endl;
 
     while (window.isOpen())
     {
@@ -502,14 +460,16 @@ int main()
                         gameWon = false;
                         gameBoard.loadBoard("boards/testBoard1.brd");
                         gameBoard.initializeTiles(textureMap, gameBoard._numRows, gameBoard._numCols, gameBoard._numMines);
-                        gameBoard.printBoard();
+                        //gameBoard.printBoard(); // <- DEBUGGING
                         
                         windowWidth = gameBoard._numCols * 32;
                         windowHeight = gameBoard._numRows * 32 + 100;
                         resizeWindow(window, digitPtrMap, buttonMap, mainView, windowWidth, windowHeight);
                         updateCounter(gameBoard, digitPtrMap, textureMap); // Update counter with every click with pointer
-                        cout << "Number of unrevealed tiles = " << gameBoard._numNotMines << endl;
-                        cout << "New board size: " << gameBoard._numRows << " " << gameBoard._numCols << endl;
+
+                        // DEBUGGING OUTPUTS
+                        /*cout << "Number of unrevealed tiles = " << gameBoard._numNotMines << endl;
+                        cout << "New board size: " << gameBoard._numRows << " " << gameBoard._numCols << endl;*/
                     }
                     else if (test2Button.getBounds().contains(mouseClick)) // Check if mouse is inside Test Button 2
                     {
@@ -519,7 +479,7 @@ int main()
                         gameWon = false;
                         gameBoard.loadBoard("boards/testBoard2.brd");
                         gameBoard.initializeTiles(textureMap, gameBoard._numRows, gameBoard._numCols, gameBoard._numMines);
-                        gameBoard.printBoard();
+                        //gameBoard.printBoard(); // <- DEBUGGING
 
                         windowWidth = gameBoard._numCols * 32;
                         windowHeight = gameBoard._numRows * 32 + 100;
@@ -527,15 +487,14 @@ int main()
                         updateCounter(gameBoard, digitPtrMap, textureMap); // Update counter with every click with pointer
                     }
                     else if (test3Button.getBounds().contains(mouseClick)) // Check if mouse is inside Test Button 3
-                    {
-                        cout << "Test 3 Button clicked" << endl;
+                    {                        
                         smileButton.setButtonTexture("smile", textureMap);
                         gameBoard.resetBoard(textureMap);
                         gameOver = false; // Reset game over flag
                         gameWon = false;
                         gameBoard.loadBoard("boards/testBoard3.brd");
                         gameBoard.initializeTiles(textureMap, gameBoard._numRows, gameBoard._numCols, gameBoard._numMines);
-                        gameBoard.printBoard();
+                        //gameBoard.printBoard(); // <- DEBUGGING
 
                         windowWidth = gameBoard._numCols * 32;
                         windowHeight = gameBoard._numRows * 32 + 100;

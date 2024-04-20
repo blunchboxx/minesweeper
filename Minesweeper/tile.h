@@ -11,19 +11,7 @@ struct Tile
 	sf::Texture _mineTexture;
 	sf::Texture _flagTexture;
 	sf::Texture _tileTexture;
-	/*sf::Texture hiddenTileTexture;
-	
-	sf::Texture revealedTileTexture;
-	sf::Texture flaggedTileTexture;
-	sf::Texture mineTileTexture;
-	sf::Texture numOneTexture;
-	sf::Texture numTwoTexture;
-	sf::Texture numThreeTexture;
-	sf::Texture numFourTexture;
-	sf::Texture numFiveTexture;
-	sf::Texture numSixTexture;
-	sf::Texture numSevenTexture;
-	sf::Texture numEightTexture;*/
+
 	bool _mined = false;
 	bool _revealed = false;
 	bool _flagged = false;

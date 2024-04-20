@@ -14,8 +14,6 @@ Button::Button(float x, float y, string key, map<string, sf::Texture>& textures)
 	_position.y = y;
 	
 	_buttonSprite.setPosition(_position.x, _position.y);
-	
-	cout << "Button position = " << _buttonSprite.getPosition().x << " " << _buttonSprite.getPosition().y << endl;
 
 	initializeTextures(key, textures);
 }

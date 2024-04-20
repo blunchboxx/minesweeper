@@ -1,52 +1,55 @@
-﻿  main.cpp
-C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Minesweeper\main.cpp(40,27): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Minesweeper\main.cpp(88,50): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
-C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Minesweeper\main.cpp(88,50): warning C4244:         with
-C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Minesweeper\main.cpp(88,50): warning C4244:         [
-C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Minesweeper\main.cpp(88,50): warning C4244:             T=float
-C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Minesweeper\main.cpp(88,50): warning C4244:         ]
-C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Minesweeper\main.cpp(88,40): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
-C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Minesweeper\main.cpp(88,40): warning C4244:         with
-C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Minesweeper\main.cpp(88,40): warning C4244:         [
-C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Minesweeper\main.cpp(88,40): warning C4244:             T=float
-C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Minesweeper\main.cpp(88,40): warning C4244:         ]
-C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Minesweeper\main.cpp(92,67): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Minesweeper\main.cpp(92,51): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Minesweeper\main.cpp(93,63): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Minesweeper\main.cpp(93,47): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Minesweeper\main.cpp(94,64): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Minesweeper\main.cpp(94,47): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Minesweeper\main.cpp(95,64): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Minesweeper\main.cpp(95,47): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Minesweeper\main.cpp(96,64): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Minesweeper\main.cpp(96,47): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Minesweeper\main.cpp(106,44): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Minesweeper\main.cpp(107,45): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Minesweeper\main.cpp(108,46): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Minesweeper\main.cpp(109,44): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Minesweeper\main.cpp(277,23): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Minesweeper\main.cpp(278,24): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Minesweeper\main.cpp(284,56): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
-C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Minesweeper\main.cpp(284,43): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
-C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Minesweeper\main.cpp(488,58): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Minesweeper\main.cpp(489,64): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Minesweeper\main.cpp(490,93): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Minesweeper\main.cpp(490,80): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Minesweeper\main.cpp(507,58): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Minesweeper\main.cpp(508,64): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Minesweeper\main.cpp(509,93): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Minesweeper\main.cpp(509,80): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Minesweeper\main.cpp(524,58): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Minesweeper\main.cpp(525,64): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Minesweeper\main.cpp(526,93): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Minesweeper\main.cpp(526,80): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Minesweeper\main.cpp(540,58): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Minesweeper\main.cpp(541,64): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Minesweeper\main.cpp(542,93): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Minesweeper\main.cpp(542,80): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+﻿  Button.cpp
+  board.cpp
+C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Minesweeper\board.cpp(87,13): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Minesweeper\board.cpp(208,22): warning C4018: '<': signed/unsigned mismatch
+  main.cpp
+C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Minesweeper\main.cpp(46,50): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Minesweeper\main.cpp(46,50): warning C4244:         with
+C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Minesweeper\main.cpp(46,50): warning C4244:         [
+C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Minesweeper\main.cpp(46,50): warning C4244:             T=float
+C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Minesweeper\main.cpp(46,50): warning C4244:         ]
+C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Minesweeper\main.cpp(46,40): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Minesweeper\main.cpp(46,40): warning C4244:         with
+C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Minesweeper\main.cpp(46,40): warning C4244:         [
+C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Minesweeper\main.cpp(46,40): warning C4244:             T=float
+C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Minesweeper\main.cpp(46,40): warning C4244:         ]
+C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Minesweeper\main.cpp(50,67): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Minesweeper\main.cpp(50,51): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Minesweeper\main.cpp(51,63): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Minesweeper\main.cpp(51,47): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Minesweeper\main.cpp(52,64): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Minesweeper\main.cpp(52,47): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Minesweeper\main.cpp(53,64): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Minesweeper\main.cpp(53,47): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Minesweeper\main.cpp(54,64): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Minesweeper\main.cpp(54,47): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Minesweeper\main.cpp(64,44): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Minesweeper\main.cpp(65,45): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Minesweeper\main.cpp(66,46): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Minesweeper\main.cpp(67,44): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Minesweeper\main.cpp(235,23): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Minesweeper\main.cpp(236,24): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Minesweeper\main.cpp(242,56): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Minesweeper\main.cpp(242,43): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Minesweeper\main.cpp(446,58): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Minesweeper\main.cpp(447,64): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Minesweeper\main.cpp(448,93): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Minesweeper\main.cpp(448,80): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Minesweeper\main.cpp(465,58): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Minesweeper\main.cpp(466,64): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Minesweeper\main.cpp(467,93): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Minesweeper\main.cpp(467,80): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Minesweeper\main.cpp(484,58): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Minesweeper\main.cpp(485,64): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Minesweeper\main.cpp(486,93): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Minesweeper\main.cpp(486,80): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Minesweeper\main.cpp(499,58): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Minesweeper\main.cpp(500,64): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Minesweeper\main.cpp(501,93): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Minesweeper\main.cpp(501,80): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
   Generating code
-  1 of 1047 functions (<0.1%) were compiled, the rest were copied from previous compilation.
+  6 of 1046 functions ( 0.6%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
-    3 functions had inline decision re-evaluated but remain unchanged
+    12 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
   Minesweeper.vcxproj -> C:\Users\Jason\OneDrive - University of Florida\Documents\GitHub\Minesweeper\minesweeper\Release\Minesweeper.exe

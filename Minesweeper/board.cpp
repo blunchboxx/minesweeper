@@ -28,7 +28,6 @@ Board::Board(string boardType, map<string, sf::Texture>& textures)
 	}
 	else if (boardType == "2")
 	{	
-		cout << "Intitializing board 2" << endl;
 		loadBoard("boards/testboard2.brd");
 		_numNotMines = (_numRows * _numCols) - _numMines;
 		initializeTiles(textures, _numRows, _numCols, _numMines);
@@ -184,13 +183,6 @@ void Board::initializeTiles(map<string, sf::Texture>& textures, int numRows, int
 	{
 		for (int col = 0; col < _numCols; col++)
 		{
-			/*if (_board[row][col] == 1) {
-				++_numMines;
-			}*/
-			//if (_board[row][col] == 1) {
-			//	cout << "Initializing bomb tile " << row << " " << col << endl;
-			//}
-
 			Tile newTile(_board[row][col], row, col, textures);
 
 			tempRow.push_back(newTile); //.push_back(newTile);
